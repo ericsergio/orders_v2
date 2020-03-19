@@ -1,0 +1,50 @@
+/* iPhone portrait */
+@media only screen and (orientation: portrait) {
+	#displayIndicator {
+		color:rgb(1,0,0);
+	}
+	.distWrapper{
+		visibility:hidden;
+	}
+	#processCount{
+		display:none;
+	}
+
+	.typeWrapper .typeList {
+		border-top: none;
+	}
+	
+	.typeWrapper .typeList .selected:first-child{
+		margin:25% 0% 0% 30%;
+		color:#000;
+		display:grid;
+		grid-template-columns: 20%;
+	}
+	.resultWrapper .itemList{
+		display: grid;
+		grid-gap:5px;
+		grid-template-columns: 75% 25%;
+		margin: 10% 5% 160px 0;
+	}
+	.typeLeftRight{
+		display:grid;
+		list-style-type: none;
+		grid-gap:50%;
+		grid-template-columns: 20% 20%;
+	}
+	#mobileMenuBtn {
+		position: absolute;
+		top:15%;
+		right:3%;
+		z-index: 7;
+	}
+	footer{
+		top: 460px;
+		padding: 2% 0% 0% 2%;
+		height:90px;
+	}
+	.contact{
+		grid-template-columns:1fr;
+		
+	}
+}

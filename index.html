@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+	<head>
+		<title>Count_v2</title>
+		<meta name=”description” content=”Description of page here.”/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Eric Sergio">
+		<meta charset="UTF-8">
+		<link rel='stylesheet' href='styles/main.css'>
+		<link rel='stylesheet' href='styles/mobile.css'>
+		<script type = 'text/javascript' src = 'scripts/jQuery.js'></script>
+		
+	</head>
+	<body>
+	<div id = "displayIndicator" style = "display:none;"></div>
+		<nav role="navigation" class="navBar">
+			<div class="navWrapper">
+				<ul class="navList">
+					<li><a href="pages/managedb.html">Manage DB</a></li>
+					<li><a href="pages/info.html">Item Info</a></li>
+					<li><a href="pages/about.html">About</a></li>
+					<li><input type = "button" id = "processCount" value = "Submit" onclick = "processCount()"></li>
+				</ul>
+			</div>
+		</nav>
+		<div class = "typeBar">
+			<div class = "typeWrapper">
+				<ul class = "typeList">
+					<li class = "type selected">Liquor</li>
+					<li class = "type">Wine</li>
+					<li class = "type">Bottles</li>
+					<li class = "type">Kegs</li>
+					<li class = "type">NA</li>
+				</ul>
+				<ul class = "typeLeftRight" style = "visibility: hidden;">
+					<li><img src = "images/arrowLeft.png" onclick = "decrementIdx()"></li>
+					<li><img src = "images/arrowRight.png" onclick = "incrementIdx()"></li>
+				</ul>
+			</div>
+		</div>
+		<div class = "distBar">
+			<div class = "distWrapper">
+				<ul class = "distList">
+					<li class = "dist">Southern</li>
+					<li class = "dist">Columbia</li>
+					<li class = "dist">Crown</li>
+					<li class = "dist">Youngs</li>
+				</ul>
+			</div>
+		</div>
+		<div class = "results">
+			<div class = resultWrapper>
+			</div>
+
+		</div>
+		<footer>
+			<p class = "contact">
+				<span class = "copyright">&copy; 2020 Technology Student</span> 
+				<span class = "contactAddress"> 19** 18*nd ST SW Lynnwood, WA 98037</span>
+				<span class = "contactPhone">(425)236-**** </span>
+				<span class = "contactWebsite">
+					<a href="#">www.ericsergio.com</a>
+				</span>
+				<a href="mailto:nobody@nowhere.com "><span class = "contactEmail">ericdsergio87@icloud.com</span></a>
+			</p>
+		</footer>
+		<script type = 'text/javascript' src = 'scripts/app.js'></script>
+	</body>
+</html>
